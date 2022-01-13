@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="Lab01.View.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lab01.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='2' x:Name="txtFistName" Header="First Name" HorizontalAlignment="Left" Margin="56,72,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:ConnectionId='3' x:Name="txtLastName" Header="Last Name" HorizontalAlignment="Left" Margin="420,72,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:ConnectionId='4' x:Name="txtAddress" Header="Address" HorizontalAlignment="Left" Margin="801,72,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:ConnectionId='5' x:Name="txtPhone" Header="Phone" HorizontalAlignment="Left" Margin="426,192,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:ConnectionId='6' x:Name="txtIntro" Header="Introduction" HorizontalAlignment="Left" Margin="57,412,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="1061" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <RadioButton x:ConnectionId='7' Tag="1"                         GroupName="gender" Content="Male" Margin="62,326,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:ConnectionId='8' Tag="0"                         GroupName="gender" Content="Female" Margin="153,326,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='9' Content="Submit" Margin="62,614,0,0" VerticalAlignment="Top" Height="40" Width="182"                       />
+        <Button x:ConnectionId='10' Content="Reset form" Margin="304,614,0,0" VerticalAlignment="Top" Height="40" Width="182"                      />
+        <PasswordBox x:ConnectionId='11' x:Name="txtPass" Header="Password" HorizontalAlignment="Left" Margin="62,189,0,0" VerticalAlignment="Top" Height="63" Width="302"/>
+        <TextBox x:ConnectionId='12' x:Name="txtEmail" Header="Email" HorizontalAlignment="Left" Margin="801,189,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <DatePicker x:ConnectionId='13'                                        Header="Birth Day" x:Name="dateDob" Margin="429,303,0,0" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='14' x:Name="txtAvatar" Header="Avatar" HorizontalAlignment="Left" Margin="801,296,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="308" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewX="1.444" TranslateX="1.475"/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock x:ConnectionId='15' x:Name="msgFistName" Foreground="red" HorizontalAlignment="Left" Margin="62,137,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='16' x:Name="msgLastName"  Foreground="red" HorizontalAlignment="Left" Margin="428,137,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='17' x:Name="msgAddress"  Foreground="red" HorizontalAlignment="Left" Margin="806,137,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='18' x:Name="msgPassword"  Foreground="red" HorizontalAlignment="Left" Margin="62,257,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='19' x:Name="msgPhone"  Foreground="red" HorizontalAlignment="Left" Margin="429,257,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='20' x:Name="msgEmail"  Foreground="red" HorizontalAlignment="Left" Margin="806,251,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='21' x:Name="msgAvatar"  Foreground="red" HorizontalAlignment="Left" Margin="806,358,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+
